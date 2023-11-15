@@ -12,8 +12,8 @@ import "../carousel/carousel.css"
 function Slider() {
   return (
     <>
-      <Carousel className='m-1 mt-4 md:m-6  z-0' showThumbs={false} stopOnHover = {true} swipeScrollTolerance={5} swipeable = {true}
-       interval={3000} axis='horizontal' autoPlay = {true} infiniteLoop = {true}>
+      <Carousel className=' mt-4  container m-auto z-0' showThumbs={false} stopOnHover = {true} swipeScrollTolerance={5} swipeable = {true}
+       interval={3000} axis='horizontal' autoPlay = {false} infiniteLoop = {true}>
         <div>
           <img src={slider1} />
           <p className="legend ">Zoom 100:bucket list of the dead</p>
